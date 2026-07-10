@@ -1,4 +1,4 @@
-/* VARIABLES DE COLOR Y FUENTES - Exigido por la rúbrica */
+/* VARIABLES DE COLOR Y FUENTES */
 @font-face {
     font-family: 'VAMPIRE WARS.OTF';
     src: url(Fonts/VAMPIRE\ WARS.OTF);
@@ -30,7 +30,7 @@ body {
     background-image: linear-gradient(to bottom, #0d0202, #1a0508, #0d0202);
 }
 
-/* NAVBAR / HEADER COMPARTIDO */
+/* NAVBAR / HEADER */
 header {
     background-color: rgba(13, 2, 2, 0.95);
     border-bottom: 1px solid var(--rojo-oscuro);
@@ -102,7 +102,7 @@ main {
     margin-top: 80px;
 }
 
-/* CONTENEDORES GENERALES */
+/* CONTENEDORES */
 .section-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -120,7 +120,7 @@ main {
     text-shadow: 0 0 10px var(--rojo-neon);
 }
 
-/* --- ESTILOS: PÁGINA DE INICIO (INDEX) --- */
+/* --- INDEX --- */
 .hero {
     display: flex;
     align-items: center;
