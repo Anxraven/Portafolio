@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | Ann Raven</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER COMPARTIDO -->
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="Imagenes/Anraven.png" alt="Anraven Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html" class="active">Servicios</a></li>
+                <li><a href="index.html#acerca">Acerca de mí</a></li>
+                <li><a href="index.html#portafolio">Portafolio</a></li>
+                <li><a href="#contacto" class="btn-contacto">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO ESPECÍFICO DE SERVICIOS -->
+    <main class="section-container">
+        <h1 class="titulo-seccion">Nuestros Servicios</h1>
+
+        <!-- BLOQUE 1: DISEÑO GRÁFICO -->
+        <section class="servicio-bloque">
+            <div class="servicio-subtitulo">
+                <span class="triangulo-neon">▼</span> DISEÑO GRÁFICO
+            </div>
+            <div class="galeria-trabajos">
+                <div class="trabajo-item">
+                    <img src="Imagenes/logo.png" alt="Logo para Stream">
+                    <p>Logo para Stream</p>
+                </div>
+                <div class="trabajo-item">
+                    <img src="Imagenes/WitchAnime.png" alt="Character">
+                    <p>Character</p>
+                </div>
+                <div class="trabajo-item">
+                    <img src="Imagenes/carta.jpeg" alt="Carta de restaurant">
+                    <p>Carta de restaurant</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOQUE 2: ILUSTRACIÓN -->
+        <section class="servicio-bloque">
+            <div class="servicio-subtitulo">
+                <span class="triangulo-neon">▼</span> ILUSTRACIÓN
+            </div>
+            <div class="galeria-trabajos">
+                <div class="trabajo-item">
+                    <img src="Imagenes/art anime.png" alt="Estilo Manga">
+                    <p>Estilo Manga</p>
+                </div>
+                <div class="trabajo-item">
+                    <img src="Imagenes/girl.png" alt="Retrato">
+                    <p>Retrato</p>
+                </div>
+                <div class="trabajo-item">
+                    <img src="Imagenes/hamster.png" alt="Animalista">
+                    <p>Animalista</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOQUE 3: UX / UI -->
+        <section class="servicio-bloque">
+            <div class="servicio-subtitulo">
+                <span class="triangulo-neon">▼</span> UX / UI
+            </div>
+            <div class="galeria-trabajos">
+                <div class="trabajo-item">
+                    <img src="Imagenes/web.jpeg" alt="Diseño interfaz Web">
+                    <p>Diseño interfaz Web</p>
+                </div>
+                <div class="trabajo-item">
+                    <img src="Imagenes/app.jpeg" alt="Diseño App Delivery">
+                    <p>Diseño de App Delivery</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER COMPARTIDO -->
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="form-contenedor">
+                <h2 style="font-family: var(--fuente-titulos); margin-bottom: 10px;">CONTÁCTAME</h2>
+                <p style="color: var(--texto-gris); margin-bottom: 20px;">Déjame tus datos para trabajar juntos.</p>
+                
+                <form class="contacto-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Teléfono" required>
+                    <input type="text" placeholder="Asunto" required>
+                    <textarea placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                    <button type="submit">Enviar solicitud</button>
+                </form>
+            </div>
+            <div class="footer-logo">
+                <img src="Imagenes/Anraven.png" alt="Anraven Logo">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

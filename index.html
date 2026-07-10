@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ann Raven | Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Madimi+One&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- HEADER & NAV -->
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="Imagenes/Anraven.png" alt="Anraven Logo">
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto" class="btn-contacto">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="section-container">
+        
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-img">
+                <img src="Imagenes/yo.jpeg" alt="Robert - Ilustrador y Diseñador">
+            </div>
+            <div class="hero-text">
+                <p>HOLA, SOY ROBERT</p>
+                <h1>Ilustrador y Diseñador</h1>
+                <p>Especializado en diseño de interfaces, ilustración digital y creación de contenido multimedia con estética gótica y anime</p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIOS -->
+        <section id="servicios" style="margin-top: 80px;">
+            <h2 class="titulo-seccion">Servicios</h2>
+            <div class="servicios-grid">
+                <div class="tarjeta-servicio">
+                    <div class="icon-v">
+                        <img src="Imagenes/Logo annraven.png" alt="">
+                    </div>
+                    <h3>DISEÑO GRÁFICO</h3>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icon-v">
+                        <img src="Imagenes/Logo annraven.png" alt="">
+                    </div>
+                    <h3>ILUSTRACIÓN</h3>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icon-v">
+                        <img src="Imagenes/Logo annraven.png" alt="">
+                    </div>
+                    <h3>MULTIMEDIA</h3>
+                </div>
+                <div class="tarjeta-servicio">
+                    <div class="icon-v">
+                        <img src="Imagenes/Logo annraven.png" alt="">
+                    </div>
+                    <h3>UX / UI</h3>
+                </div>
+            </div>
+            <a href="servicios.html" class="ver-mas">Ver más ▼</a>
+        </section>
+
+        <!-- SECCIÓN PORTAFOLIO -->
+        <section id="portafolio" style="margin-top: 80px;">
+            <h2 class="titulo-seccion">Portafolio</h2>
+            <div class="portafolio-grid">
+                <div class="proyecto-card">
+                    <img src="Imagenes/girl.png" alt="Anime Girl">
+                    <p>Proyecto Anime Girl</p>
+                </div>
+                <div class="proyecto-card">
+                    <img src="Imagenes/skulls.jpg" alt="Skulls and Girl">
+                    <p>Proyecto Skulls and Girl</p>
+                </div>
+                <div class="proyecto-card">
+                    <img src="Imagenes/nerua.png" alt="Nerua">
+                    <p>Proyecto Nerua</p>
+                </div>
+            </div>
+            <a href="servicios.html" class="ver-mas">Ver más ▼</a>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="form-contenedor">
+                <h2 style="font-family: var(--fuente-titulos); margin-bottom: 10px;">CONTÁCTAME</h2>
+                <p style="color: var(--texto-gris); margin-bottom: 20px;">Déjame tus datos para trabajar juntos.</p>
+                
+                <form class="contacto-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Teléfono" required>
+                    <input type="text" placeholder="Asunto" required>
+                    <textarea placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                    <button type="submit">Enviar solicitud</button>
+                </form>
+            </div>
+            <div class="footer-logo">
+                <img src="Imagenes/Anraven.png" alt="Anraven Logo">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
