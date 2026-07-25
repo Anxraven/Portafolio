@@ -13,7 +13,7 @@
     --texto-gris: #b3b3b3;
     --fuente-titulos: 'VAMPIRE WARS.OTF', sans-serif;
     --fuente-menu: 'Madimi One', sans-serif;
-    --fuente-cuerpo: 'Audiwide', sans-serif;
+    --fuente-cuerpo: 'Audiowide', sans-serif;
 }
 
 * {
@@ -50,7 +50,6 @@ header {
 }
 
 .logo img {
-    height: 250px;
     height: auto;
     max-height: 80px;
     margin-left: 20px;
@@ -191,7 +190,7 @@ main {
     margin-top: 20px;
 }
 
-/* PORTAFOLIO EN INDEX */
+/* PORTAFOLIO INDEX */
 .portafolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -210,8 +209,10 @@ main {
 
 .proyecto-card img:hover {
     border-color: var(--rojo-neon);
-    box-shadow: 0 0 20px var(--rojo-neon) inset 0 0 10px var(--rojo-neon);
-    transform: translate(-5px);
+    box-shadow: 
+    0 0 20px var(--rojo-neon), 
+    inset 0 0 10px var(--rojo-neon);
+    transform: translateY(-5px);
 }
 
 .proyecto-card p {
@@ -247,7 +248,7 @@ main {
     border-radius: 8px;
     display: inline-block;
     width: 100%;
-    border: 2 solid var(--rojo-oscuro);
+    border: 2px solid var(--rojo-oscuro);
     box-shadow: 0 0 12px rgba(255, 0, 60, 0.3);
     transition: all 0.3s ease;
     overflow: hidden;
@@ -319,6 +320,9 @@ footer {
     padding: 12px;
     border-radius: 4px;
     font-family: var(--fuente-cuerpo);
+    outline: none;
+    border-color: var(--rojo-neon);
+    box-shadow: 0 0 10px var(--rojo-neon);
 }
 
 .contacto-form textarea {
@@ -337,6 +341,7 @@ footer {
     cursor: pointer;
     border-radius: 4px;
     text-transform: uppercase;
+    transition: .3s;
 }
 
 .contacto-form button:hover {
@@ -345,5 +350,48 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 250px;
+    max-width: 250px;   
+}
+
+.card{
+    background:rgba(20,5,5,.75);
+    border:1px solid var(--rojo-oscuro);
+    color:white;
+}
+
+.card-title{
+    font-family:var(--fuente-titulos);
+}
+
+.card:hover{
+    border-color:var(--rojo-neon);
+    transform:translateY(-8px);
+    transition:.3s;
+}
+
+@media (max-width:768px){
+    .nav-container{
+        flex-direction:column;
+    }
+
+    .nav-menu{
+        flex-direction:column;
+        gap:12px;
+        margin-top:15px;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-text{
+        margin-left:0;
+        margin-top:20px;
+    }
+
+    .footer-content{
+        flex-direction:column;
+        text-align:center;
+    }
 }
